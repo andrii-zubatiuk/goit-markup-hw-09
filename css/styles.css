@@ -82,7 +82,8 @@ img {
 
 .tel-icon {
   display: block;
-  width: 18px;
+  width: 20px;
+  height: 20px;
   margin-right: 6px;
   fill: var(--white-color);
 }
@@ -119,6 +120,7 @@ img {
 .mail-icon {
   display: block;
   width: 20px;
+  height: 20px;
   margin-right: 8px;
   fill: var(--white-color);
 }
