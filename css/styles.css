@@ -819,7 +819,7 @@ img {
   border-radius: 5px;
 }
 
-.enter-icon {
+.enter {
   display: block;
   width: 90px;
   height: 60px;
@@ -830,6 +830,15 @@ img {
   cursor: pointer;
   fill: var(--white-color);
   padding: 10px 10px;
+}
+
+.enter-icon {
+  transition: transform 250ms linear;
+}
+
+.enter:hover .enter-icon,
+.enter:focus .enter-icon {
+  transform: rotateY(45deg);
 }
 
 /* .input::before {
